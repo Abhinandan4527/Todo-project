@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="todos">
+      <div class="todos-header">
+        <h3 class="todos-title">Todo List</h3>
+        <div>
+          <p>
+            You have <b><span class="todos-count"></span></b>&nbsp; things to do
+          </p>
+          <button class="todos-clear" style="display: none">
+            Clear completed
+          </button>
+        </div>
+      </div>
+      <br /><br />
+
+      <form class="todos-form" name="todos">
+        <input type="text" placeholder="Add your todo......." name="todo" />
+      </form>
+
+      <ol class="todos-list"></ol>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
